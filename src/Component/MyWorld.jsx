@@ -14,13 +14,11 @@ const MyWorld = () => {
           <div className="w-0 h-0 border-l-[10px] border-r-[10px] border-b-[10px] border-solid border-l-transparent border-r-transparent border-b-light-pinkColor rotate-90"></div>
         </div>
 
-        {/* Section Description */}
         <p className="mt-3 sm:text-base md:text-lg md:w-1/2 mx-auto text-light-text_color2 sm:w-3/5 leading-relaxed">
           I'm a young tech enthusiast and entrepreneur who loves to take risks.
           I grew up in a tech family in New York City.
         </p>
 
-        {/* Cards Section */}
         <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-8 w-11/12 mx-auto mt-16">
           <Card
             icon={faReact}

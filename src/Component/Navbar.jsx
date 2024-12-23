@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className="flex items-center">
         <div className="bg-light-pinkColor rounded-full size-16 flex justify-center items-center">
           <img
-            src="./assets/image2.png"
+            src="../src/assets/images2.png"
             className="w-12 object-cover"
             alt="Logo"
           />
@@ -82,36 +82,38 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <div className="hidden md:flex space-x-4 text-medium bg-light-pinkColor p-2 rounded-md">
-            <a href="#" className="hover:text-light-pinkColor">
-              <FontAwesomeIcon
-                icon={faSun}
-                size="xs"
-                style={{
-                  color: "black",
-                }}
-              />
-            </a>
-            <a href="#" className="hover:text-light-pinkColor">
-              <FontAwesomeIcon
-                icon={faMoon}
-                size="xs"
-                style={{
-                  color: "black",
-                }}
-              />
-            </a>
-            <a href="#" className="hover:text-light-pinkColor">
-              <FontAwesomeIcon
-              size="xs"
-                style={{
-                  color: "black",
-                }}
-                icon={faLinkedin} />
-            </a>
-          </div>
         </div>
       )}
+
+      <div className="hidden md:flex space-x-4 text-medium text-light-text_color3 p-2 rounded-md">
+        <a href="#" className="hover:text-light-pinkColor">
+          <FontAwesomeIcon
+            icon={faSun}
+            size="xs"
+            style={{
+              color: "black",
+            }}
+          />
+        </a>
+        <a href="#" className="hover:text-light-pinkColor">
+          <FontAwesomeIcon
+            icon={faMoon}
+            size="xs"
+            style={{
+              color: "black",
+            }}
+          />
+        </a>
+        <a href="#" className="hover:text-light-pinkColor">
+          <FontAwesomeIcon
+            size="xs"
+            style={{
+              color: "black",
+            }}
+            icon={faLinkedin}
+          />
+        </a>
+      </div>
 
       {/* Icon Section */}
     </nav>
